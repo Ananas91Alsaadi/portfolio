@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto;
+  background: #F7EEFF;
+  font-size: 4vw;
+}
+header {
+	  background: #FFF;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+header img {
+  width: 10vw;
+  height: 5%;
+  margin: 2vw;
+}
+nav {
+  display: flex;
+  background: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  color: #000;
+  padding: 0vw 2vw;
+  box-shadow: 0px 3px 6px #aaa;
+  margin: 0;
+}
+nav h1 {
+  margin: 1vw auto;
+}
+nav ul {
+  display: none;
+  list-style: none;
+  position: absolute;
+  background: #fff;
+  padding: 5vw 0vw 5vw 10vw;
+  width: 50vw;
+  top: 5.8vw;
+  left: 0;
+  border-radius: 1vw;
+  box-shadow: 0px 3px 10px #aaa;
+}
+nav ul li {
+  margin: 1vw 0;
+}
+nav ul li:hover {
+  text-shadow: 0px 2px 15px #CD84FF;
+}
+nav button:focus + ul {
+  display: block;
+}
+nav button:focus {
+  pointer-events: none;
+}
+nav button {
+  font-size: 8vw;
+  background: #fff;
+  border: 0px;
+  float: left;
+}
+
+nav button:active + ul {
+  display: block;
+}
+
+main div img {
+	display: block;
+	width: 60vw;
+	margin: auto;
+}
+
+.back_img{
+position: absolute;
+	top:0vw;
+	left: 0vw;
+	height: 63vw ;
+	opacity: 0;
+}
+.link_to{
+	position: relative;
+	margin: 0 auto;
+	width: 60vw;
+}
+.link_to:hover  .qr {
+	opacity: 0;
+	transition: 0.4s ease-out;
+}
+.link_to:hover  .back_img {
+
+	opacity: 1;
+	transition: 0.4s ease-out;
+}
+
+
+
+@media (min-width:376px) {
+  body {
+  }
+}
+@media (min-width:769px) {
+  body {
+  }
+}
+@media (min-width:1201px) {
+  body {
+    margin: 0 auto;
+  }
+}
