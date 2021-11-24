@@ -92,21 +92,21 @@ main>div {
 }
 
 .web_dev {
-  background: url("qr.jpg") no-repeat;
+  background: url("qr/Webapp.png") no-repeat;
   background-size: 100% 100%;
   transition: 0.5s ease;
 }
 .web_dev:hover {
-  background: url("games.png");
+  background: url("img/games.png");
   background-size: 100% 100%;
 }
 .mobile_app {
-  background: url("qr.jpg") no-repeat;
+  background: url("img/coming soon.png") no-repeat;
   background-size: 100% 100%;
   transition: 0.5s ease;
 }
 .mobile_app:hover {
-  background: url("games.png");
+  background: url("img/coming soon.png");
   background-size: 100% 100%;
 }
 .illus {
@@ -115,7 +115,7 @@ main>div {
   transition: 0.5s ease;
 }
 .illus:hover {
-  background: url("illusba.png");
+  background: url("img/illusba.png");
   background-size: 100% 100%;
 }
 .hunger {
@@ -124,7 +124,7 @@ main>div {
   transition: 0.5s ease;
 }
 .hunger:hover {
-  background: url("games.png");
+  background: url("img/games.png");
   background-size: 100% 100%;
 }
 
@@ -134,7 +134,7 @@ main>div {
   transition: 0.5s ease;
 }
 .ekorre:hover {
-  background: url("ekkore.png");
+  background: url("img/ekkore.png");
   background-size: 100% 100%;
 }
 
@@ -144,7 +144,7 @@ main>div {
   transition: 0.5s ease;
 }
 .TheHangMan:hover {
-  background: url("hangman.png");
+  background: url("img/hangman.png");
   background-size: 100% 100%;
 }
 
@@ -154,7 +154,7 @@ main>div {
   transition: 0.5s ease;
 }
 .Tssss:hover {
-  background: url("snake.png");
+  background: url("img/snake.png");
   background-size: 100% 100%;
 }
 
@@ -164,10 +164,10 @@ main>div {
   transition: 0.5s ease;
 }
 .Balloon:hover {
-  background: url("ballon.png");
+  background: url("img/ballon.png");
   background-size: 100% 100%;
 }
-@media (min-width:376px) {
+@media (min-width:415px) {
   body {
     font-size: 1.9vw;
   }
