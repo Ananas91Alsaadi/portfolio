@@ -167,6 +167,44 @@ main>div {
   background: url("img/ballon.png");
   background-size: 100% 100%;
 }
+
+.GYM {
+  background: url("qr/Exam15Hour gym.png") no-repeat;
+  background-size: 100% 100%;
+  transition: 0.5s ease;
+}
+.GYM:hover {
+  background: url("img/gym.png");
+  background-size: 100% 100%;
+}
+
+.Guess {
+  background: url("qr/guess it.png") no-repeat;
+  background-size: 100% 100%;
+  transition: 0.5s ease;
+}
+.Guess:hover {
+  background: url("img/guess.png");
+  background-size: 100% 100%;
+}
+.Bucket_list {
+  background: url("qr/bucketlist com web.png") no-repeat;
+  background-size: 100% 100%;
+  transition: 0.5s ease;
+}
+.Bucket_list:hover {
+  background: url("img/bucketlist.png");
+  background-size: 100% 100%;
+}
+.Caffe_shop {
+  background: url("qr/Caffeshop.png") no-repeat;
+  background-size: 100% 100%;
+  transition: 0.5s ease;
+}
+.Caffe_shop:hover {
+  background: url("img/caffeshop.png");
+  background-size: 100% 100%;
+}
 @media (min-width:415px) {
   body {
     font-size: 1.9vw;
