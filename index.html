@@ -18,21 +18,11 @@
 @media (max-width: 1200px) {
 }
 </style>
-<body>
-<header> <img src="design/logoAnas.png" alt="">
-  <h1>Anas Alsaadi</h1>
+<body onLoad="nav();">
+<header> 
 </header>
 <nav>
-  <button id="barmenu"><i class="fa fa-bars"></i></button>
-  <ul>
-    <li onclick="window.location='webapp.html';">Web Apps</li>
-    <li>Mobile Apps</li>
-    <li>Application Design</li>
-    <li onclick="window.location='illus.html';">Illustrator</li>
-    <li>Home Made</li>
-    <li>About Me</li>
-  </ul>
-  <h1 onclick="window.location='index.html';">This Is My Design</h1>
+  
 </nav>
 <main>
   <div>
@@ -45,19 +35,19 @@
   </div>
   <div>
     <h2>Application Design</h2>
-    <div class="link_to illus"> </div>
+    <div class="link_to appdes"> </div>
   </div>
   <div>
     <h2>Illustrator</h2>
-    <div class="link_to hunger"> </div>
+    <div class="link_to illus"> </div>
   </div>
   <div>
     <h2>Home Made</h2>
-    <div class="link_to hunger"> </div>
+    <div class="link_to mobile_app"> </div>
   </div>
 	  <div>
     <h2>Anout Me</h2>
-    <div class="link_to hunger"> </div>
+    <div class="link_to cv"> </div>
   </div>
 
 </main>
@@ -65,5 +55,8 @@
 	
 	
 </footer>
+	
+	<script src="nav.js"></script>
+
 </body>
 </html>

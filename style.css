@@ -70,6 +70,13 @@ nav button:active + ul {
 h1{
 	text-align: center;
 }
+
+main {
+	padding: 2vw;
+		  box-shadow: 0px 0px 40px #444444;
+
+}
+
 main h2 {
 	text-align: center;
 }
@@ -109,8 +116,19 @@ main>div {
   background: url("img/coming soon.png");
   background-size: 100% 100%;
 }
+
+.appdes {
+  background: url("qr/appdesign.png") no-repeat;
+  background-size: 100% 100%;
+  transition: 0.5s ease;
+}
+.appdes:hover {
+  background: url("img/illusba.png");
+  background-size: 100% 100%;
+}
+
 .illus {
-  background: url("qr.jpg") no-repeat;
+  background: url("qr/illus.png") no-repeat;
   background-size: 100% 100%;
   transition: 0.5s ease;
 }
@@ -119,12 +137,21 @@ main>div {
   background-size: 100% 100%;
 }
 .hunger {
-  background: url("qr.jpg") no-repeat;
+  background: url("/") no-repeat;
   background-size: 100% 100%;
   transition: 0.5s ease;
 }
 .hunger:hover {
   background: url("img/games.png");
+  background-size: 100% 100%;
+}
+.cv {
+  background: url("qr/cv.png") no-repeat;
+  background-size: 100% 100%;
+  transition: 0.5s ease;
+}
+.cv:hover {
+  background: url("img/illusba.png");
   background-size: 100% 100%;
 }
 
