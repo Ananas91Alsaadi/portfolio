@@ -1,6 +1,12 @@
+@font-face {
+  font-family: Oswald;
+  src: url("font/static/Oswald-Regular.ttf"); }
+
+
 body {
+	font-family: Oswald;
   margin: 0 auto;
-  background: #F7EEFF;
+  background: #F2F4FF;
   font-size: 4vw;
 }
 header {
@@ -73,8 +79,8 @@ h1{
 
 main {
 	padding: 2vw;
-		  box-shadow: 0px 0px 40px #444444;
-
+	box-shadow: 0px 0px 40px #444444;
+	border-radius: 10px;
 }
 
 main h2 {
@@ -83,7 +89,9 @@ main h2 {
 main>div {
 	width: 60vw;
 	margin: 3vw auto;
-	background: #ECECEC
+	background: #EDEDED;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 2px #444444;
 }
 
 .link_to {
@@ -232,6 +240,25 @@ main>div {
   background: url("img/caffeshop.png");
   background-size: 100% 100%;
 }
+
+.near_meal {
+  background: url("qr/nearmeal.png") no-repeat;
+  background-size: 100% 100%;
+  transition: 0.5s ease;
+}
+.near_meal:hover {
+  background: url("design/logoUI.png");
+  background-size: 100% 100%;
+}
+.crypto_save {
+  background: url("qr/cryptosave.png") no-repeat;
+  background-size: 100% 100%;
+  transition: 0.5s ease;
+}
+.crypto_save:hover {
+  background: url("design/crypto save logo.png");
+  background-size: 100% 100%;
+}
 @media (min-width:415px) {
   body {
     font-size: 1.9vw;
@@ -290,6 +317,7 @@ main>div {
   }
   main > div {
     width: 20vw;
+  
   }
   .link_to {
     width: 20vw;
@@ -312,7 +340,7 @@ main>div {
   main > div {
 	
     width: 240px;
-	  margin: 10px;
+	  margin: 30px 10px;
   }
   .link_to {
     width: 240px;
