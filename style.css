@@ -97,33 +97,22 @@ main>div {
 }
 
 main>a>img {
-	width: 100%;
+	width: 80vw;
+	margin: auto;
 	height: auto;
 	box-shadow: 0px 0px 10px 5px #000;
 	cursor: pointer;
-	
-	
-	  margin-top: 8px;
-  vertical-align: middle;
-
 }
 main>a{
-	width: 100%;
 	margin: 10vw auto;
 }
 
 #illus_page {
 	width: 90vw;
 	margin: auto;
-	display: flex;
-	  flex-wrap: wrap;
-  padding: 0 4px;
-
-}
-.column{
-	  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+	display: grid;
+	align-content: center;
+	align-items: center;
 
 }
 video{
@@ -374,21 +363,13 @@ main>a>img {
 main>a{
 	margin: 5vw auto;
 }
-main>a>img:hover {
-	transform: scale(1.5);
-		box-shadow: 0px 0px 100px 150px #000;
-background: #fff;
-  transition: 0.5s ease;
-	
-
+	video{
+	width:40vw;
+	margin: auto;
 }
 
 #illus_page {
-	width: 90vw;
-	margin: auto;
-	display: grid;
-	align-content: center;
-	align-items: center;
+	grid-template-columns: 40vw 40vw;
 }
 }
 @media (min-width:769px) {
@@ -412,9 +393,28 @@ background: #fff;
     height: 20vw;
   }
 	video{
-	width:50vw;
+	width:25vw;
 	margin: auto;
 }
+	main>a>img {
+	width: 25vw;
+}
+main>a{
+	margin: 5vw auto;
+}
+
+#illus_page {
+	grid-template-columns: 30vw 30vw 30vw;
+}
+	main>a>img:hover {
+	transform: scale(1.5);
+		box-shadow: 0px 0px 100px 150px #000;
+background: #fff;
+  transition: 0.5s ease;
+	
+
+}
+
 
 }
 @media (min-width:1201px) {
