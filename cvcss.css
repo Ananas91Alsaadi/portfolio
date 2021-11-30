@@ -1,4 +1,14 @@
+@font-face {
+  font-family: Oswald;
+  src: url("font/static/Oswald-Regular.ttf"); }
+@font-face {
+  font-family: CormorantGaramond;
+  src: url("font/gar/CormorantGaramond-Bold.ttf"); }
+
+
 body {
+	font-family: Oswald;
+	font-size:20px;;
 	width: 1000px;
 	margin: 0 auto;
 }
@@ -19,11 +29,13 @@ aside {
 	float: right;
 	top: 0;
 	width: 32%;
-color: #fff;
-	padding: 1%;
+	color: #fff;
+	padding: 0%;
 }
 
-
+aside>* {
+	margin: 5%;
+}
 #head {
 	text-align: center;
 }
@@ -48,9 +60,18 @@ background: #ECECEC;
 	width: 80%;
 }
 
+ul {
+	font-size: 20px;
+		font-family: CormorantGaramond;
+
+}
+aside>div>p {
+		font-family: CormorantGaramond;
+
+}
 .line_gr {
 	background: #AFAFAF;
-	width: 200px;
+	width: 350px;
 	height: 20px;
 }
 
@@ -63,20 +84,20 @@ background: #ECECEC;
 }
 
 .l1 {
-		width: 100px;
-	top: 33%;
+		width: 250px;
+	top: 50%;
 
 }
 
 .l2 {
-		width: 150px;
-	top: 62.9%;
+		width: 250px;
+	top: 71.3%;
 	
 }
 
 .l3{
-			width: 150px;
-	top: 92.4%;
+			width: 350px;
+	top: 92%;
 
 }
 
@@ -84,9 +105,13 @@ background: #ECECEC;
 .lang{
 	position: relative;
 	width: 65%;
+	
 }
 
-footer {
+.lang>h3{
+	margin: 0;
+}
+.foot {
 	display: flex;
 	align-content: space-around;
 }
@@ -104,10 +129,80 @@ footer {
 	border-radius: 50%;
 }
 
+.skills {
+	margin: 0;
+	padding: 5%;
+	width: 90%;
+	height: 300px;
+	background: #2D0E98;
+	position: relative;
+}
+.skills>h3 {
+margin: 0;
+}
 
+.skills>div:nth-child(2) {
+	position: absolute;
+background:#5F29C2;
+width: 100px;
+	left: 60%;
+	height: 100px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 95px;
+}
 
+.skills>div:nth-child(3) {
+	position: absolute;
+background:#3A72D3;
+width: 130px;
+	left: 30%;
+	top: 30%;
+	height: 130px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 125px;
+	font-size: 30px;
+	opacity: 0.8;
+	z-index: 1;
+	
+}
 
+.skills>div:nth-child(4) {
+	position: absolute;
+background:#001088;
+width: 110px;
+	left: 10%;
+	top: 60%;
+	height: 110px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 105px;
+}
 
-
-
+.skills>div:nth-child(5) {
+	position: absolute;
+background:#000B52;
+width: 80px;
+	left: 60%;
+	top: 70%;
+	height: 80px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 75px;
+}
+.skills>div:nth-child(6) {
+	position: absolute;
+background:#27C9C6;
+width: 120px;
+	left: 5%;
+	top: 15%;
+	height: 120px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 115px;
+	opacity: 0.8;
+	font-size: 25px;
+	z-index: 2;
+}
 
