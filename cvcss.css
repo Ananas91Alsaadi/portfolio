@@ -20,12 +20,18 @@ input {
 #finsCV {
 	position: absolute;
 	left: 0;
-	width: 100px;
+	width: 80px;
 }
 #fins {
 	position: absolute;
+	left: 3px;
+	font-size: 15px;
+	top: 60px;
+}
+#finsa {
+		position: absolute;
 	left: 0;
-	top: 70px;
+
 }
 main {
 	padding-left: 1%;
