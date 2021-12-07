@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Oswald;
+  src: url("font/static/Oswald-Regular.ttf"); }
+@font-face {
+  font-family: CormorantGaramond;
+  src: url("font/gar/CormorantGaramond-Bold.ttf"); }
+body {
+	font-family: Oswald;
+	font-size:20px;;
+	width: 1000px;
+	margin: 0 auto;
+}
