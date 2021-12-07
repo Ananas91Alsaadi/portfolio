@@ -17,7 +17,16 @@ input {
 	position: absolute;
 	left:0;
 }
-
+#finsCV {
+	position: absolute;
+	left: 0;
+	width: 100px;
+}
+#fins {
+	position: absolute;
+	left: 0;
+	top: 70px;
+}
 main {
 	padding-left: 1%;
 
