@@ -5,8 +5,50 @@
   font-family: CormorantGaramond;
   src: url("font/gar/CormorantGaramond-Bold.ttf"); }
 body {
-	font-family: Oswald;
+	font-family: CormorantGaramond;
 	font-size:20px;;
 	width: 1000px;
 	margin: 0 auto;
 }
+
+main {
+	display: flex;
+		
+}
+
+#profpic {
+	display: block;
+width: 50%;
+	margin: 120px auto 0px auto;
+	/*border: solid 10px;*/
+	box-shadow: 5px 5px 10px;
+}
+#left_side {
+	width: 33%;
+	background: #325A73;
+	border-bottom: solid 5px #DED7D1;
+		border-left: solid 5px #DED7D1;
+
+	color: #DED7D1;
+}
+#right_side {
+		width: 33%;
+
+	background: #325A73;
+		border-right: solid 5px #DED7D1;
+
+	border-bottom: solid 5px #DED7D1;
+	color: #DED7D1;
+}
+#middle_side{
+		width: 33%;
+
+	background: #DED7D1;
+	border-bottom: solid 5px #325A73;
+	border-top:solid 5px #325A73;
+
+	color: #325A73;
+}
+
+
+
