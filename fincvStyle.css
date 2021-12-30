@@ -11,8 +11,10 @@ body {
 	margin: 0 auto;
 }
 
+
 main {
 	display: flex;
+	position: relative;
 		
 }
 
@@ -24,6 +26,7 @@ width: 50%;
 	box-shadow: 5px 5px 10px;
 }
 #left_side {
+	margin-top: 100px;
 	width: 33%;
 	background: #325A73;
 	border-bottom: solid 5px #DED7D1;
@@ -33,6 +36,7 @@ width: 50%;
 }
 #right_side {
 		width: 33%;
+	margin-top: 100px;
 
 	background: #325A73;
 		border-right: solid 5px #DED7D1;
@@ -42,6 +46,7 @@ width: 50%;
 }
 #middle_side{
 		width: 33%;
+	margin-top: 100px;
 
 	background: #DED7D1;
 	border-bottom: solid 5px #325A73;
@@ -49,6 +54,86 @@ width: 50%;
 
 	color: #325A73;
 }
+#middle_side h3 {
+		color: #325A73;
+
+}
 
 
+.deco {
+	font-family: Oswald;
+	color: #325A73;
+	text-align: center;
+	font-size: 30px;
+	line-height: 0px;
+	width: 327px;
+	left: 1px;
+	position: absolute;
+	height: 120px;
+	border: solid 3px #325A73;
+	background: #DED7D1;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px; 
+}
+.line {
+		width: 170px;
+	position: absolute;
+	height: 50px;
+	top: 40px;
+	left: 83px;
+	border-bottom: solid 10px #325A73;
+	background: rgb(0,0,0,0);
+border-radius: 100px;
+}
 
+
+.dmid {
+	width: 325px;
+	left: 334px;
+	position: absolute;
+	height: 150px;
+	border: solid 3px #DED7D1;
+	background: #325A73;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px; 
+}
+.lmid {
+		width: 150px;
+	position: absolute;
+	height: 50px;
+	top: 40px;
+	left: 425px;
+	border-bottom: solid 10px #DED7D1;
+	background: #325A73;
+border-radius: 100px;
+}
+
+.dright {
+		font-family: Oswald;
+	color: #325A73;
+	text-align: center;
+	font-size: 30px;
+	line-height: 0px;
+
+	width: 327px;
+	left: 665px;
+	position: absolute;
+	height: 120px;
+	border: solid 3px #325A73;
+	background: #DED7D1;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px; 
+}
+.lright {
+		width: 150px;
+	position: absolute;
+	height: 50px;
+	top: 40px;
+	left: 755px;
+	border-bottom: solid 10px #325A73;
+	background: rgb(0,0,0,0);
+border-radius: 100px;
+}
+h3 {
+	color: #CCE0FF;
+}

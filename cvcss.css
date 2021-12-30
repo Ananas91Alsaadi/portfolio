@@ -70,7 +70,7 @@ background: #ECECEC;
 #work_ex {
 	display: block;
 	margin: 0 auto;
-	width: 30%;
+	width: 40%;
 }
 
 #foots {
@@ -174,7 +174,7 @@ width: 100px;
 
 .skills>div:nth-child(3) {
 	position: absolute;
-background:#3A72D3;
+background:#0100FF;
 width: 130px;
 	left: 30%;
 	top: 30%;
@@ -225,4 +225,17 @@ width: 120px;
 	font-size: 25px;
 	z-index: 2;
 }
-
+.skills>div:nth-child(7) {
+	position: absolute;
+background:#3484DF;
+width: 80px;
+	left: 60%;
+	top: 50%;
+	height: 80px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 75px;
+	opacity: 0.8;
+	font-size: 25px;
+	z-index: 2;
+}
