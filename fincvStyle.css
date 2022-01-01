@@ -5,12 +5,15 @@
   font-family: CormorantGaramond;
   src: url("font/gar/CormorantGaramond-Bold.ttf"); }
 body {
-	font-family: CormorantGaramond;
+	font-family: Oswald;
 	font-size:20px;;
 	width: 1000px;
 	margin: 0 auto;
 }
+p {
+		font-family: CormorantGaramond;
 
+}
 
 main {
 	display: flex;
@@ -31,13 +34,15 @@ width: 50%;
 	background: #325A73;
 	border-bottom: solid 5px #DED7D1;
 		border-left: solid 5px #DED7D1;
+	padding: 5px;
 
 	color: #DED7D1;
 }
 #right_side {
+	padding: 5px;
 		width: 33%;
 	margin-top: 100px;
-
+text-align: end;
 	background: #325A73;
 		border-right: solid 5px #DED7D1;
 
@@ -47,6 +52,8 @@ width: 50%;
 #middle_side{
 		width: 33%;
 	margin-top: 100px;
+text-align: center;
+		padding: 5px;
 
 	background: #DED7D1;
 	border-bottom: solid 5px #325A73;
