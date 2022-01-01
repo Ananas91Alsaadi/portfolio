@@ -83,7 +83,9 @@ padding-top: 300px;
 		color: #325A73;
 font-size: 20px;
 }
-
+#about_me{
+	margin-top: 100px;
+}
 
 .deco {
 	font-family: Oswald;
