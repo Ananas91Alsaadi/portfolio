@@ -9,7 +9,23 @@ function nav()  {document.querySelector("nav").innerHTML =
     <li onclick="window.location=' + "'CV.html'" + ';">Resume</li>\
   </ul>\
   <h1 onclick="window.location=' + "'index.html'" + ';">This Is My Design</h1>';
+				 
 
 document.querySelector("header").innerHTML='<img src="design/logoAnas.png" alt="">\
   <h1>Anas Alsaadi</h1>';
-}
+
+				 
+document.querySelector("footer").innerHTML='<div class="foot">\
+<img src="design/logoAnas.png" alt="">\
+<h2>Contact</h2>\
+<p><i class="fa fa-envelope-o" aria-hidden="true"></i> anas_al-saadi@hotmail.com</p>\
+<p><i class="fa fa-mobile" aria-hidden="true"></i> 0046721270751</p>\
+<a href="https://github.com/Ananas91Alsaadi?tab=repositories"><i class="fa fa-github-square"></i></a>\
+<a href="https://www.facebook.com/an00000s"><i class="fa fa-facebook-square"></i></a></div>';
+				
+				
+				
+				
+				}
+
+

@@ -125,6 +125,46 @@ video{
 
 }
 
+footer {
+  background: #FFF;
+	position: relative;
+	padding: 1vw 5vw;
+	text-align: center;
+}
+
+footer img {
+	display: block;
+  width: 20vw;
+  height: 5%;
+  margin: auto;
+}
+footer .fa {
+	margin: 0 2vw ;
+	color: #000;
+			font-size: 5vw;
+
+}
+
+.foot p:nth-child(4)>i  {
+	padding: 0vw 0.7vw;
+}
+
+
+
+
+footer>div>a>.fa {
+		font-size: 10vw;
+
+}
+footer .fa-facebook-square {
+	margin: 0 2vw ;
+	color: #121EB8;
+}
+
+.foot {
+	max-width: 1000px;
+	margin: auto;
+}
 .link_to {
   display: block;
   width: 60vw;
@@ -360,6 +400,16 @@ video{
 	  background-size: 100% 100%;
 }
 
+.MGR {
+  background: url("qr/Memory Game (REACT).png") no-repeat;
+	  background-size: 100% 100%;
+
+}
+.MGR:hover {
+  background: url("img/Memory game react.jpg");
+	  background-size: 100% 100%;
+}
+
 @media (min-width:415px) {
   body {
     font-size: 1.9vw;
@@ -423,6 +473,27 @@ main>a{
 #illus_page {
 	grid-template-columns: 40vw 40vw;
 }
+	footer {
+text-align: start;
+		font-size: 3vw;
+		
+}
+
+footer img {
+  width: 15vw;
+	float: right;
+}
+
+footer>div>a>.fa {
+		font-size: 8vw;
+
+}
+footer .fa {
+			font-size: 2.7vw;
+
+}
+
+
 }
 @media (min-width:769px) {
   body {
@@ -466,6 +537,18 @@ main>a{
 background: #fff;
   transition: 0.5s ease;
 	
+
+}
+	footer {
+		font-size: 2vw;
+}
+
+footer img {
+  width: 10vw;
+}
+
+footer>div>a>.fa {
+		font-size: 6vw;
 
 }
 
@@ -520,7 +603,19 @@ main>a{
 
 
 }
+	footer {
+		font-size: 24px;
+		padding: 12px 60px
+}
 
+footer img {
+  width: 120px;
+}
+
+footer>div>a>.fa {
+		font-size: 72px;
+
+}
 
 
 }
