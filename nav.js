@@ -28,4 +28,4 @@ document.querySelector("footer").innerHTML='<div class="foot">\
 				
 				}
 
-
+//onclick="window.location=' + "'webapp.html'" + ';"
