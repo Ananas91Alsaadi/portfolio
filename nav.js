@@ -5,8 +5,7 @@ function nav()  {document.querySelector("nav").innerHTML =
     <li>Mobile Apps</li>\
     <li onclick="window.location=' + "'appdesign.html'" + ';">Application Design</li>\
     <li onclick="window.location=' + "'illus.html'" + ';">Illustrator</li>\
-    <li>Home Made</li>\
-    <li onclick="window.location=' + "'CV.html'" + ';">Resume</li>\
+    <li onclick="window.location=' + "'https://ananas91alsaadi.github.io/resume/'" + ';">Resume</li>\
   </ul>\
   <h1 onclick="window.location=' + "'index.html'" + ';">This Is My Design</h1>';
 				 
