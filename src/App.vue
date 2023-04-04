@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 import router from '@/router'
 const width = window.innerWidth;
 const height = window.innerHeight;
-
+//git subtree push --prefix dist origin gh-pages
 export default {
   components: {
 
