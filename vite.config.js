@@ -14,6 +14,8 @@ export default defineConfig({
     }
   },
   build: {
+    assetsDir: 'assets',
+
     rollupOptions: {
       external: [
         '/portfolio/pic6.png',
