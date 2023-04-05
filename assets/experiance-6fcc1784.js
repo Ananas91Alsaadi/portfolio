@@ -1,4 +1,4 @@
-import d from"/portfolio/pic4.jpeg";import c from"/portfolio/pic5.jpg";import{_ as m,o,c as s,a as e,F as u,r as g,t as i}from"./index-bec3f8af.js";import"/portfolio/pic7.png";import"/portfolio/pic6.png";const h={data(){return{edu:[{title:`May 2022 - June 2022
+import d from"/portfolio/pic4.jpeg";import c from"/portfolio/pic5.jpg";import{_ as m,o,c as s,a as e,F as u,r as g,t as i}from"./index-8c4a998a.js";import"/portfolio/pic7.png";import"/portfolio/pic6.png";const h={data(){return{edu:[{title:`May 2022 - June 2022
                     Intern as web designer and developer
 Webbay/Sweden`,content:`It was my internship. I worked as a designer for both web and mobile applications. I also worked on a website using WordPress to make it. HTML, CSS, and JS are mainly used to program the website. Moreover, a little bit with Flutter platform and dart language.
 `},{title:`August 2018 - August 2019
