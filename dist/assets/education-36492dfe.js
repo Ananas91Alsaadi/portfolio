@@ -1,4 +1,4 @@
-import{_ as l,o as n,c as i,a as t,w as c,F as p,r as d,t as s}from"./index-8c4a998a.js";import m from"/portfolio/pic1.jpg";import _ from"/portfolio/Picture2.png";import u from"/portfolio/Picture3.png";import"/portfolio/pic7.png";import"/portfolio/pic6.png";const g={data(){return{edu:[{title:`2020-2023
+import{_ as l,o as n,c as i,a as t,w as c,F as p,r as d,t as s}from"./index-e52303bd.js";import m from"/portfolio/pic1.jpg";import _ from"/portfolio/Picture2.png";import u from"/portfolio/Picture3.png";import"/portfolio/pic7.png";import"/portfolio/pic6.png";const g={data(){return{edu:[{title:`2020-2023
 Bachelor in Web Development and Design
 `,content:"Graphic design and web development with topics in Building database-driven web applications from the ground up, as well as creating templates for Wordpress and programming mobile web applications. design principles, typography, composition and color theory."},{title:`2019-2020
 Master in International Financial Analysis
