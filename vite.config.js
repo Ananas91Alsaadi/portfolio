@@ -3,9 +3,13 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
+
+  
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicPath: '/portfolio/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/portfolio/'
+    : '/',
 
   plugins: [vue()],
   resolve: {
@@ -14,7 +18,6 @@ export default defineConfig({
     }
   },
   build: {
-    assetsDir: 'assets',
 
     rollupOptions: {
       external: [
@@ -29,4 +32,5 @@ export default defineConfig({
     }
   }
 
-})
+});
+
