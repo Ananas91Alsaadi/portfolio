@@ -4,9 +4,9 @@
 <template>
   <main class="start-head">
     <div class="head-intro">
-    <img src="/portfolio/pic7.png" alt="" >
+    <img src="/pic7.png" alt="" >
 
-    <img src="/portfolio/pic6.png" alt="" class="bg">
+    <img src="/pic6.png" alt="" class="bg">
 <p>
     "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle."
    <br> <spane class="names">-Steve Jobs</spane>

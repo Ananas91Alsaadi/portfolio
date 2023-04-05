@@ -19,17 +19,10 @@ export default defineConfig({
     }
   },
   build: {
-
     rollupOptions: {
-      external: [
-        '/portfolio/pic6.png',
-        '/portfolio/Picture2.png',
-        "/portfolio/pic4.jpeg",
-        "/portfolio/pic7.png",
-        "/portfolio/pic1.jpg",
-        "/portfolio/Picture3.png",
-        "/portfolio/pic5.jpg",
-      ] // specify the path of the external asset here
+      output: {
+        assetFileNames: '[name].[ext]' // this line tells Vite to output assets as files
+      }
     }
   }
 

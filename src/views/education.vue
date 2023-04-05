@@ -23,10 +23,10 @@ Master in International Financial Analysis
 <template>
   <main>
     <div class="container">
-      <img src="/portfolio/pic1.jpg" alt="" />
-      <img src="/portfolio/Picture2.png" alt="" />
+      <img src="/pic1.jpg" alt="" />
+      <img src="/Picture2.png" alt="" />
       <h2>Jönköping University</h2>
-      <img src="/portfolio/Picture3.png" alt="" />
+      <img src="/Picture3.png" alt="" />
       <div @mouseover.prevent="" class="blogs scroller">
         <div class="blog" v-for="(i, index) in edu" :key="index">
           <h2>{{ i.title }}</h2>

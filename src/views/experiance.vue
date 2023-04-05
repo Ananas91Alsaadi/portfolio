@@ -60,8 +60,8 @@ Ebla/Damascus, Syria
 <template>
   <main >
     <div class="container">
-      <img src="/portfolio/pic4.jpeg" alt="" />
-      <img src="/portfolio/pic5.jpg" alt="" />
+      <img src="/pic4.jpeg" alt="" />
+      <img src="/pic5.jpg" alt="" />
       <h2>Jobs and Works</h2>
       <img src="https://blog.lpcinternational.co.uk/hubfs/What%20Skills%20Does%20A%20Supply%20Chain%20Consultant%20Need%20%26%20Why.png" alt="" />
       <div @mouseover="handleOver" @mouseout="stopListening"   class="blogs scroller">
