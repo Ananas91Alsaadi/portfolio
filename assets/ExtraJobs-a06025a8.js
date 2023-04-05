@@ -1,4 +1,4 @@
-import{_ as c,o as s,c as o,a as t,F as d,r as u,t as i}from"./index-8c4a998a.js";import"/portfolio/pic7.png";import"/portfolio/pic6.png";const m={data(){return{edu:[{title:`2017 - 2020
+import{_ as c,o as s,c as o,a as t,F as d,r as u,t as i}from"./index-e52303bd.js";import"/portfolio/pic7.png";import"/portfolio/pic6.png";const m={data(){return{edu:[{title:`2017 - 2020
 Accountant and Bookkeeper
 LOGEN 2046 PLOGEN AV IOGT-NTO/Jönköping, Sweden`,content:`Accounting and financial statements
 `},{title:`2015
