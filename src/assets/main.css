@@ -15,7 +15,6 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
 }
 
@@ -33,15 +32,16 @@ body {
 .main-body {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
 }
 
-ul {
+.ul-main {
   margin: 0 10vw;
   position: relative;
   transform: skewY(-15deg);
 }
-ul li {
+.ul-main li {
   cursor: pointer;
   position: relative;
   list-style: none;
@@ -50,20 +50,20 @@ ul li {
   z-index: var(--i);
   transition: 0.5s;
 }
-ul li:last-child::after {
+.ul-main li:last-child::after {
   box-shadow: -7.8125vw 7.8125vw 1.302083333vw rgba(0, 0, 0, 0.25);
 }
-ul li:hover {
+.ul-main li:hover {
   background-color: #b366d7;
   transform: translate(3.255208333vw);
 }
-ul li:hover::before {
+.ul-main li:hover::before {
   background-color: #8b30b8;
 }
-ul li:hover::after {
+.ul-main li:hover::after {
   background-color: #aa55d2;
 }
-ul li::before {
+.ul-main li::before {
   content: "";
   position: absolute;
   top: 0;
@@ -75,7 +75,7 @@ ul li::before {
   transform: skewY(45deg);
   transition: 0.5s;
 }
-ul li::after {
+.ul-main li::after {
   content: "";
   position: absolute;
   top: -2.604166667vw;
@@ -87,7 +87,7 @@ ul li::after {
   transform: skewX(45deg);
   transition: 0.5s;
 }
-ul li .nav-a {
+.ul-main li .nav-a {
   text-decoration: none;
   color: #999;
   display: block;
@@ -97,24 +97,24 @@ ul li .nav-a {
   color: #fff;
   padding: 0.9765625vw;
 }
-ul .li-active {
+.ul-main .li-active {
   background-color: #BD71F7;
   transform: translate(6.255208333vw);
 }
-ul .li-active:hover {
+.ul-main .li-active:hover {
   background-color: #BD71F7;
   transform: translate(6.255208333vw);
 }
-ul .li-active:hover::after {
+.ul-main .li-active:hover::after {
   background-color: #9C27F5;
 }
-ul .li-active:hover::before {
+.ul-main .li-active:hover::before {
   background-color: #7D20C2;
 }
-ul .li-active::after {
+.ul-main .li-active::after {
   background-color: #9C27F5;
 }
-ul .li-active::before {
+.ul-main .li-active::before {
   background-color: #7D20C2;
 }
 
@@ -304,6 +304,7 @@ p {
   position: relative;
   width: 90%;
   margin: 4% auto;
+  color: #eee;
 }
 .box .icon {
   position: absolute;
@@ -317,6 +318,26 @@ p {
 .box .content {
   background-color: #7030a0;
   padding: 2.5%;
+}
+.box .content p a {
+  text-decoration: none;
+}
+
+.sm {
+  display: flex;
+  gap: 1vw;
+  color: #fff;
+}
+.sm a {
+  color: #fff;
+}
+.sm a i {
+  font-size: 3vw;
+  color: #fff;
+}
+
+.white {
+  color: #fff;
 }
 
 .theTwo {
@@ -421,17 +442,20 @@ p {
 }
 .arrows path.a1 {
   animation-delay: -1s;
-  -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+  -webkit-animation-delay: -1s;
+  /* Safari 和 Chrome */
 }
 
 .arrows path.a2 {
   animation-delay: -0.5s;
-  -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+  -webkit-animation-delay: -0.5s;
+  /* Safari 和 Chrome */
 }
 
 .arrows path.a3 {
   animation-delay: 0s;
-  -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+  -webkit-animation-delay: 0s;
+  /* Safari 和 Chrome */
 }
 
 .cl {
@@ -521,7 +545,8 @@ p {
   height: 0px;
   width: 0px;
   top: -3vw;
-  left: 8vw; /* 1px buffer for zooming problems while rendering*/
+  left: 8vw;
+  /* 1px buffer for zooming problems while rendering*/
   border-width: 2vw;
   border-color: transparent transparent white transparent;
   border-style: solid;
@@ -532,4 +557,36 @@ p {
 .draggable .rect-arrow p a {
   text-decoration: none;
   color: #000;
+}
+
+.services ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+.services ul li {
+  margin: 0.5vw;
+  width: 30%;
+  text-align: center;
+  background-color: #8b30b8;
+  padding: 1vw;
+  border-radius: 10vw;
+}
+
+.box-services {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 3vw auto;
+}
+.box-services .icon {
+  top: -15%;
+  left: -5%;
+}
+.box-services .content {
+  padding: 2vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
 }/*# sourceMappingURL=main.css.map */

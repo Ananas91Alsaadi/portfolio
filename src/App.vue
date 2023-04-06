@@ -10,7 +10,7 @@ export default {
   },
   data() {
     return {
-      activeLi: 8,
+      activeLi: 9,
       upS:false,
       downS:true,
       overChild:false,
@@ -45,7 +45,7 @@ export default {
         this.upS=false
       this.downS=true
 
-        this.activeLi==8?'':this.activeLi++;
+        this.activeLi==9?'':this.activeLi++;
       } else {
         this.upS=true
       this.downS=false
@@ -76,24 +76,27 @@ if(this.activeLi!=p){
 
       switch (p) {
         case 1:
+        router.push('/service')
+          break;
+        case 2:
         router.push('/designEx')
           break;
-          case 2:
+          case 3:
         router.push('/porgEx')
           break;
-          case 3:
+          case 4:
         router.push('/skills')
           break;
-          case 4:
+          case 5:
         router.push('/Languages')
           break;
-          case 5:
+          case 6:
         router.push('/ExtraJobs')
           break;
-          case 6:
+          case 7:
         router.push('/education')
           break;
-          case 7:
+          case 8:
         router.push('/experiance')
           break;
         default:
@@ -130,67 +133,74 @@ if(this.activeLi!=p){
 <div class="main-body">
 
   <div>
-    <ul>
+    <ul class="ul-main">
       <li
-        style="--i: 8"
-        @click="goToPage(8) "
-        :class="activeLi == 8 ? 'li-active' : ''"
+        style="--i: 9"
+        @click="goToPage(9) "
+        :class="activeLi == 9 ? 'li-active' : ''"
       >
         <RouterLink class="nav-a" to="/"> Intro</RouterLink>
       </li>
 
       <li
-        style="--i: 7"
-        @click="goToPage(7) "
-        :class="activeLi == 7 ? 'li-active' : ''"
+        style="--i: 8"
+        @click="goToPage(8) "
+        :class="activeLi == 8 ? 'li-active' : ''"
       >
         <RouterLink class="nav-a" to="/experiance"> Experience</RouterLink>
       </li>
       <li
-        style="--i: 6"
-        @click="activeLi = 6"
-        :class="activeLi == 6 ? 'li-active' : ''"
+        style="--i: 7"
+        @click="goToPage(7)"
+        :class="activeLi == 7 ? 'li-active' : ''"
       >
         <RouterLink class="nav-a" to="/education"> Education</RouterLink>
       </li>
       <li
-        style="--i: 5"
-        @click="goToPage(5)"
-        :class="activeLi == 5 ? 'li-active' : ''"
+        style="--i: 6"
+        @click="goToPage(6)"
+        :class="activeLi == 6 ? 'li-active' : ''"
       >
         <RouterLink class="nav-a" to="/ExtraJobs"> Extra Jobs</RouterLink>
       </li>
 
       <li
-        style="--i: 4"
-        @click="goToPage(4)"
-        :class="activeLi == 4 ? 'li-active' : ''"
+        style="--i: 5"
+        @click="goToPage(5)"
+        :class="activeLi == 5 ? 'li-active' : ''"
       >
         <RouterLink class="nav-a" to="/Languages">Competencies and Languages</RouterLink>
       </li>
       <li
-        style="--i: 3"
-        @click="goToPage(3)"
-        :class="activeLi == 3 ? 'li-active' : ''"
+        style="--i: 4"
+        @click="goToPage(4)"
+        :class="activeLi == 4 ? 'li-active' : ''"
       >
         <RouterLink class="nav-a" to="/skills">
           Web Developmet & Design Skills</RouterLink
         >
       </li>
       <li
-        style="--i: 2"
-        @click="goToPage(2)"
-        :class="activeLi == 2 ? 'li-active' : ''"
+        style="--i: 3"
+        @click="goToPage(3)"
+        :class="activeLi == 3 ? 'li-active' : ''"
       >
         <RouterLink class="nav-a" to="/porgEx"> Programing Projects</RouterLink>
       </li>
 
       <li
+        style="--i: 2"
+        @click="goToPage(2)"
+        :class="activeLi == 2 ? 'li-active' : ''"
+      >
+        <RouterLink class="nav-a" to="/designEx"> Designing Projects</RouterLink>
+      </li>
+      <li
         style="--i: 1"
         @click="goToPage(1)"
         :class="activeLi == 1 ? 'li-active' : ''"
       >
-        <RouterLink class="nav-a" to="/designEx"> Designing Projects</RouterLink>
+        <RouterLink class="nav-a" to="/service"> Services</RouterLink>
       </li>
     </ul>
   </div>
@@ -225,28 +235,6 @@ if(this.activeLi!=p){
  
 </div>
 
-
-            <div
-    class="draggable"
-    v-bind:style="{ top: posY + 'px', left: posX + 'px' }"
-    v-on:mousedown="startDrag"
-    v-on:mouseup="stopDrag"
-    v-on:mousemove="drag"
-  >
-
-
-<div class="circle" @click="contactOn=!contactOn">
-  <i class="fa-solid fa-id-badge"></i>
-</div>
-<div class="rect-arrow" v-if="contactOn">
-  <h1> Anas Alsaadi</h1>
-  <p>
-  <i class="fa-solid fa-phone"></i> <a href="tel:+46721270751"> +46 721 27 07 51</a>
-</p>
-<p><i class="fa-solid fa-envelope"></i>  <a href="mailto:anas_al-saadi@hotmail.com">anas_al-saadi@hotmail.com</a> </p>
-</div>
-</div>
-        
 
 </template>
 

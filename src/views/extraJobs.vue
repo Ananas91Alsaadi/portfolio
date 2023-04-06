@@ -3,6 +3,21 @@ export default {
   data() {
     return {
       edu: [
+      {
+          title: `2022 - now
+          Web devlopment teacher
+Support group Jönköping, Sweden`,
+          content: ` Offer instruction and mentorship in web development, catering specifically to young individuals interested in acquiring knowledge in HTML, CSS, and JavaScript.
+`,
+        },
+        {
+          title: `2021 - now
+          Web consultant
+Freelance, Sweden`,
+          content: `Provide end-to-end web design and development services, including recommendations on suitable platforms such as WordPress or custom coding solutions.
+
+`,
+        },
         {
           title: `2017 - 2020
 Accountant and Bookkeeper
@@ -10,6 +25,7 @@ LOGEN 2046 PLOGEN AV IOGT-NTO/Jönköping, Sweden`,
           content: `Accounting and financial statements
 `,
         },
+
         {
           title: `2015
 Administrator and Exam Coordinator

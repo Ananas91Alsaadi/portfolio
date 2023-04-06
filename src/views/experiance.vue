@@ -3,6 +3,14 @@ export default {
   data() {
     return {
       edu: [
+      {
+          title: `November 2022 - March 2022
+                    Web designer and developer
+Swemount/Sweden`,
+          content: `          Develop the website from the ground up, incorporating a custom-built canvas for rendering solar panel layouts atop residential roofs. Perform comprehensive calculations to determine the most efficient use of resources and materials. Provide the functionality for users to generate a downloadable PDF report based on the results.
+          `,
+        },
+
         {
           title: `May 2022 - June 2022
                     Intern as web designer and developer
@@ -24,8 +32,7 @@ Kronofogdemyndighet/Jönköping, Sweden
 Financial manager
 Alaseel/Damascus, Syria
 `,
-          content: `
-          Daily financial follow-up, balance sheet, budget, certify and check that information has been registered in the computer, follow-up of attendance and calculate workers' salaries, draw advertising posters, and maintain computers.
+          content: `          Daily financial follow-up, balance sheet, budget, certify and check that information has been registered in the computer, follow-up of attendance and calculate workers' salaries, draw advertising posters, and maintain computers.
 
 `,
         },
@@ -34,8 +41,7 @@ Alaseel/Damascus, Syria
 Cost controller
 Ebla/Damascus, Syria
 `,
-          content: `
-          In my role as a Cost Controller, I was responsible for various tasks such as inventory management, budget and balance sheet development, and data recording in the system. Additionally, I demonstrated leadership skills by leading the accounting department team to achieve the set objectives.
+          content: `          In my role as a Cost Controller, I was responsible for various tasks such as inventory management, budget and balance sheet development, and data recording in the system. Additionally, I demonstrated leadership skills by leading the accounting department team to achieve the set objectives.
 
 `,
         },

@@ -4,10 +4,18 @@ export default {
     return {
       edu: [
         {
-          title: `2020-2023
-Bachelor in Web Development and Design
+          title: `2020-2023 Jönköping, Sweden
+          Bachelor in Graphic design and web development
 `,
-          content: `Graphic design and web development with topics in Building database-driven web applications from the ground up, as well as creating templates for Wordpress and programming mobile web applications. design principles, typography, composition and color theory.`,
+          content: `      * Management of dynamic webpages (using Vue.Js, PHP, etc…)    
+          * Object-oriented programming
+* Client APIs and libraries
+* Creation of WordPress templates
+* Search engine optimization
+* User Experience Design
+* Project Management
+* Building database-driven web applications
+          `,
         },
         {
           title: `2019-2020
@@ -18,6 +26,19 @@ Master in International Financial Analysis
       ],
     };
   },
+  methods: {
+    
+    handleOver() {
+          this.$emit('ScrollingTrue', true);
+          console.log('handleOver')
+    },
+    stopListening(){
+      this.$emit('ScrollingFalse', false);
+      console.log('stopListening')
+
+    }
+
+  },
 };
 </script>
 <template>
@@ -27,7 +48,7 @@ Master in International Financial Analysis
       <img src="/Picture2.png" alt="" />
       <h2>Jönköping University</h2>
       <img src="/Picture3.png" alt="" />
-      <div @mouseover.prevent="" class="blogs scroller">
+      <div @mouseover="handleOver" @mouseout="stopListening"   class="blogs scroller">
         <div class="blog" v-for="(i, index) in edu" :key="index">
           <h2>{{ i.title }}</h2>
           <p>{{ i.content }}</p>
