@@ -1,5 +1,5 @@
-import{_ as l,o as a,c as o,a as e,F as d,r as u,t as i}from"./index-c8896564.js";const g={data(){return{edu:[{title:`2022 - now
-          Web devlopment teacher
+import{_ as l,o as a,c as o,a as e,F as d,r as u,t as i}from"./index-1f6d0aaa.js";const g={data(){return{edu:[{title:`2022 - now
+          Web development teacher
 Support group Jönköping, Sweden`,content:` Offer instruction and mentorship in web development, catering specifically to young individuals interested in acquiring knowledge in HTML, CSS, and JavaScript.
 `},{title:`2021 - now
           Web consultant

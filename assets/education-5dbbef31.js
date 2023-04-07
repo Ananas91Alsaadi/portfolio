@@ -1,4 +1,4 @@
-import{_ as c,o as s,c as o,a as n,F as d,r as p,t as a}from"./index-c8896564.js";const g="/portfolio/pic1.jpg",u="/portfolio/Picture2.png",m="/portfolio/Picture3.png",_={data(){return{edu:[{title:`2020-2023 Jönköping, Sweden
+import{_ as c,o as s,c as o,a as n,F as d,r as p,t as a}from"./index-1f6d0aaa.js";const g="/portfolio/pic1.jpg",u="/portfolio/Picture2.png",m="/portfolio/Picture3.png",_={data(){return{edu:[{title:`2020-2023 Jönköping, Sweden
           Bachelor in Graphic design and web development
 `,content:`      * Management of dynamic webpages (using Vue.Js, PHP, etc…)    
           * Object-oriented programming
